@@ -1,0 +1,99 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* My Works Section */
+.my-works {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.my-works h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.my-works .works {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.my-works .work {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.my-works .work img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.my-works .work h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.my-works .work p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
